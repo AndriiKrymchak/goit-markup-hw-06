@@ -887,11 +887,6 @@ img {
 }
 
 .modal-checkbox {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 7px;
   margin-bottom: 30px;
 }
 
@@ -907,6 +902,11 @@ img {
   font-size: 14px;
   line-height: 1.71;
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
 }
 
 .checkbox-link {
