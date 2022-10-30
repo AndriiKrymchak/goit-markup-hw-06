@@ -716,6 +716,11 @@ img {
   transition: background-color 250ms var(--transition-time),
     border-color 250ms var(--transition-time);
 }
+
+.button-subscription:hover {
+  border-color: #188ce8;
+  background-color: #188ce8;
+}
 .subscription-sending {
   display: flex;
   flex-direction: row;
@@ -731,6 +736,10 @@ img {
   color: var(--primary-white-color);
   padding: 15px 16px;
   outline: none;
+}
+
+.form-input:focus {
+  border-color: var(--accent-color);
 }
 
 .icon-footer {
@@ -862,6 +871,10 @@ img {
   margin-bottom: 20px;
   resize: none;
 }
+
+.modal-textarea:focus {
+  border-color: var(--accent-color);
+}
 .textarea {
   margin-bottom: 4px;
 }
@@ -945,12 +958,11 @@ img {
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
-  transition: background-color 2250ms var(--transition-time),
-    border-color 2250ms var(--transition-time);
+  transition: background-color 250ms var(--transition-time),
+    border-color 250ms var(--transition-time);
 }
 
 .button-modal:hover,
 .button-modal:focus {
   background-color: #188ce8;
-  border-color: #188ce8;
 }
